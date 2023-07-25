@@ -1,0 +1,200 @@
+[Tue Jul 25 11:13:22 2023] snd_hda_codec_cirrus hdaudioC1D0:    inputs:
+[Tue Jul 25 11:13:22 2023] snd_hda_codec_cirrus hdaudioC1D0:      Internal Mic=0x1c
+[Tue Jul 25 11:13:22 2023] snd_hda_codec_cirrus hdaudioC1D0:      Mic=0x18
+[Tue Jul 25 11:13:22 2023] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[Tue Jul 25 11:13:22 2023] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[Tue Jul 25 11:13:22 2023] RAPL PMU: hw unit of domain package 2^-14 Joules
+[Tue Jul 25 11:13:22 2023] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[Tue Jul 25 11:13:22 2023] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[Tue Jul 25 11:13:22 2023] Bluetooth: hci0: BCM: chip id 102 build 0537
+[Tue Jul 25 11:13:22 2023] Bluetooth: hci0: BCM: product 05ac:8290
+[Tue Jul 25 11:13:22 2023] Bluetooth: hci0: BCM: features 0x2f
+[Tue Jul 25 11:13:23 2023] Bluetooth: hci0: BCM20703A1 Generic USB UHE Apple 20Mhz fcbga_X87
+[Tue Jul 25 11:13:23 2023] input: HDA Intel HDMI HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:03.0/sound/card0/input9
+[Tue Jul 25 11:13:23 2023] input: HDA Intel PCH Mic as /devices/pci0000:00/0000:00:1b.0/sound/card1/input14
+[Tue Jul 25 11:13:23 2023] input: HDA Intel HDMI HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:03.0/sound/card0/input10
+[Tue Jul 25 11:13:23 2023] input: HDA Intel PCH Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card1/input15
+[Tue Jul 25 11:13:23 2023] input: HDA Intel PCH SPDIF as /devices/pci0000:00/0000:00:1b.0/sound/card1/input16
+[Tue Jul 25 11:13:23 2023] input: HDA Intel HDMI HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:03.0/sound/card0/input11
+[Tue Jul 25 11:13:23 2023] input: HDA Intel HDMI HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:03.0/sound/card0/input12
+[Tue Jul 25 11:13:23 2023] input: HDA Intel HDMI HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:03.0/sound/card0/input13
+[Tue Jul 25 11:13:23 2023] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[Tue Jul 25 11:13:23 2023] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+[Tue Jul 25 11:13:23 2023] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43602/1 wl0: Nov 10 2015 06:38:10 version 7.35.177.61 (r598657) FWID 01-ea662a8c
+[Tue Jul 25 11:13:23 2023] applesmc: key=670 fan=1 temp=35 index=34 acc=0 lux=2 kbd=1
+[Tue Jul 25 11:13:23 2023] applesmc applesmc.768: hwmon_device_register() is deprecated. Please convert the driver to use hwmon_device_register_with_info().
+[Tue Jul 25 11:13:23 2023] brcmfmac 0000:03:00.0 wlp3s0: renamed from wlan0
+[Tue Jul 25 11:13:23 2023] intel_rapl_common: Found RAPL domain package
+[Tue Jul 25 11:13:23 2023] intel_rapl_common: Found RAPL domain core
+[Tue Jul 25 11:13:23 2023] intel_rapl_common: Found RAPL domain uncore
+[Tue Jul 25 11:13:23 2023] intel_rapl_common: Found RAPL domain dram
+[Tue Jul 25 11:13:24 2023] spl: loading out-of-tree module taints kernel.
+[Tue Jul 25 11:13:24 2023] znvpair: module license 'CDDL' taints kernel.
+[Tue Jul 25 11:13:24 2023] Disabling lock debugging due to kernel taint
+[Tue Jul 25 11:13:24 2023] ZFS: Loaded module v2.1.5-1ubuntu6~22.04.1, ZFS pool version 5000, ZFS filesystem version 5
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.925:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=673 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.925:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=674 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.925:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=674 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.929:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=676 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.929:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=676 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.929:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=676 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.933:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/redshift" pid=677 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.933:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=675 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.933:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=675 comm="apparmor_parser"
+[Tue Jul 25 11:13:24 2023] audit: type=1400 audit(1690173455.933:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=675 comm="apparmor_parser"
+[Tue Jul 25 11:13:26 2023] systemd-journald[364]: File /var/log/journal/b0d275fb46fa48c6820be57edaa22cf5/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[Tue Jul 25 11:13:32 2023] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+[Tue Jul 25 11:13:32 2023] ieee80211 phy0: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[Tue Jul 25 11:13:32 2023] kauditd_printk_skb: 14 callbacks suppressed
+[Tue Jul 25 11:13:32 2023] audit: type=1400 audit(1690173463.701:26): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=1504 comm="cups-browsed" capability=23  capname="sys_nice"
+[Tue Jul 25 11:13:52 2023] ieee80211 phy0: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[Tue Jul 25 12:01:46 2023] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+[Tue Jul 25 12:01:46 2023] ieee80211 phy0: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[Tue Jul 25 12:02:55 2023] ieee80211 phy0: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[Tue Jul 25 12:04:14 2023] PM: suspend entry (deep)
+[Tue Jul 25 12:04:14 2023] Filesystems sync: 0.034 seconds
+[Tue Jul 25 12:04:14 2023] Freezing user space processes ... (elapsed 0.014 seconds) done.
+[Tue Jul 25 12:04:14 2023] OOM killer disabled.
+[Tue Jul 25 12:04:14 2023] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[Tue Jul 25 12:04:14 2023] printk: Suspending console(s) (use no_console_suspend to debug)
+[Tue Jul 25 12:04:14 2023] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[Tue Jul 25 12:04:14 2023] sd 0:0:0:0: [sda] Stopping disk
+[Tue Jul 25 12:04:14 2023] ACPI: EC: interrupt blocked
+[Tue Jul 25 12:04:14 2023] ACPI: PM: Preparing to enter system sleep state S3
+[Tue Jul 25 12:04:14 2023] ACPI: EC: event blocked
+[Tue Jul 25 12:04:14 2023] ACPI: EC: EC stopped
+[Tue Jul 25 12:04:14 2023] ACPI: PM: Saving platform NVS memory
+[Tue Jul 25 12:04:14 2023] Disabling non-boot CPUs ...
+[Tue Jul 25 12:04:14 2023] smpboot: CPU 1 is now offline
+[Tue Jul 25 12:04:14 2023] smpboot: CPU 2 is now offline
+[Tue Jul 25 12:04:14 2023] smpboot: CPU 3 is now offline
+[Tue Jul 25 12:04:14 2023] ACPI: PM: Low-level resume complete
+[Tue Jul 25 12:04:14 2023] ACPI: EC: EC started
+[Tue Jul 25 12:04:14 2023] ACPI: PM: Restoring platform NVS memory
+[Tue Jul 25 12:04:14 2023] Enabling non-boot CPUs ...
+[Tue Jul 25 12:04:14 2023] x86: Booting SMP configuration:
+[Tue Jul 25 12:04:14 2023] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Tue Jul 25 12:04:15 2023] CPU1 is up
+[Tue Jul 25 12:04:15 2023] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[Tue Jul 25 12:04:15 2023] CPU2 is up
+[Tue Jul 25 12:04:15 2023] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[Tue Jul 25 12:04:15 2023] CPU3 is up
+[Tue Jul 25 12:04:15 2023] ACPI: PM: Waking up from system sleep state S3
+[Tue Jul 25 12:04:15 2023] ACPI: EC: interrupt unblocked
+[Tue Jul 25 12:04:16 2023] ACPI: EC: event unblocked
+[Tue Jul 25 12:04:16 2023] sd 0:0:0:0: [sda] Starting disk
+[Tue Jul 25 12:04:16 2023] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[Tue Jul 25 12:04:16 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.bin failed with error -2
+[Tue Jul 25 12:04:16 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.txt failed with error -2
+[Tue Jul 25 12:04:16 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txt failed with error -2
+[Tue Jul 25 12:04:16 2023] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Tue Jul 25 12:04:16 2023] ata1.00: unexpected _GTF length (8)
+[Tue Jul 25 12:04:16 2023] ata1.00: unexpected _GTF length (8)
+[Tue Jul 25 12:04:16 2023] ata1.00: configured for UDMA/133
+[Tue Jul 25 12:04:17 2023] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[Tue Jul 25 12:04:17 2023] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+[Tue Jul 25 12:04:17 2023] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43602/1 wl0: Nov 10 2015 06:38:10 version 7.35.177.61 (r598657) FWID 01-ea662a8c
+[Tue Jul 25 12:04:19 2023] OOM killer enabled.
+[Tue Jul 25 12:04:19 2023] Restarting tasks ... 
+[Tue Jul 25 12:04:19 2023] usb 2-3: USB disconnect, device number 2
+[Tue Jul 25 12:04:19 2023] done.
+[Tue Jul 25 12:04:20 2023] PM: suspend exit
+[Tue Jul 25 12:04:20 2023] brcmfmac 0000:03:00.0 wlp3s0: renamed from wlan0
+[Tue Jul 25 13:03:53 2023] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+[Tue Jul 25 13:03:53 2023] ieee80211 phy1: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[Tue Jul 25 13:25:12 2023] ieee80211 phy1: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[Tue Jul 25 13:27:40 2023] PM: suspend entry (deep)
+[Tue Jul 25 13:27:40 2023] Filesystems sync: 0.050 seconds
+[Tue Jul 25 13:27:40 2023] Freezing user space processes ... (elapsed 0.001 seconds) done.
+[Tue Jul 25 13:27:40 2023] OOM killer disabled.
+[Tue Jul 25 13:27:40 2023] Freezing remaining freezable tasks ... (elapsed 0.000 seconds) done.
+[Tue Jul 25 13:27:40 2023] printk: Suspending console(s) (use no_console_suspend to debug)
+[Tue Jul 25 13:27:40 2023] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[Tue Jul 25 13:27:40 2023] sd 0:0:0:0: [sda] Stopping disk
+[Tue Jul 25 13:27:41 2023] ACPI: EC: interrupt blocked
+[Tue Jul 25 13:27:41 2023] ACPI: PM: Preparing to enter system sleep state S3
+[Tue Jul 25 13:27:41 2023] ACPI: EC: event blocked
+[Tue Jul 25 13:27:41 2023] ACPI: EC: EC stopped
+[Tue Jul 25 13:27:41 2023] ACPI: PM: Saving platform NVS memory
+[Tue Jul 25 13:27:41 2023] Disabling non-boot CPUs ...
+[Tue Jul 25 13:27:41 2023] smpboot: CPU 1 is now offline
+[Tue Jul 25 13:27:41 2023] smpboot: CPU 2 is now offline
+[Tue Jul 25 13:27:41 2023] smpboot: CPU 3 is now offline
+[Tue Jul 25 13:27:41 2023] ACPI: PM: Low-level resume complete
+[Tue Jul 25 13:27:41 2023] ACPI: EC: EC started
+[Tue Jul 25 13:27:41 2023] ACPI: PM: Restoring platform NVS memory
+[Tue Jul 25 13:27:41 2023] Enabling non-boot CPUs ...
+[Tue Jul 25 13:27:41 2023] x86: Booting SMP configuration:
+[Tue Jul 25 13:27:41 2023] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Tue Jul 25 13:27:41 2023] CPU1 is up
+[Tue Jul 25 13:27:41 2023] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[Tue Jul 25 13:27:41 2023] CPU2 is up
+[Tue Jul 25 13:27:41 2023] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[Tue Jul 25 13:27:42 2023] CPU3 is up
+[Tue Jul 25 13:27:42 2023] ACPI: PM: Waking up from system sleep state S3
+[Tue Jul 25 13:27:42 2023] ACPI: EC: interrupt unblocked
+[Tue Jul 25 13:27:43 2023] ACPI: EC: event unblocked
+[Tue Jul 25 13:27:43 2023] sd 0:0:0:0: [sda] Starting disk
+[Tue Jul 25 13:27:43 2023] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[Tue Jul 25 13:27:43 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.bin failed with error -2
+[Tue Jul 25 13:27:43 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.txt failed with error -2
+[Tue Jul 25 13:27:43 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txt failed with error -2
+[Tue Jul 25 13:27:43 2023] OOM killer enabled.
+[Tue Jul 25 13:27:43 2023] Restarting tasks ... done.
+[Tue Jul 25 13:27:43 2023] PM: suspend exit
+[Tue Jul 25 13:27:43 2023] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Tue Jul 25 13:27:43 2023] ata1.00: unexpected _GTF length (8)
+[Tue Jul 25 13:27:43 2023] ata1.00: unexpected _GTF length (8)
+[Tue Jul 25 13:27:43 2023] ata1.00: configured for UDMA/133
+[Tue Jul 25 13:27:43 2023] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[Tue Jul 25 13:27:43 2023] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+[Tue Jul 25 13:27:43 2023] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43602/1 wl0: Nov 10 2015 06:38:10 version 7.35.177.61 (r598657) FWID 01-ea662a8c
+[Tue Jul 25 13:27:43 2023] brcmfmac 0000:03:00.0 wlp3s0: renamed from wlan0
+[Tue Jul 25 13:27:48 2023] usb usb2-port3: Cannot enable. Maybe the USB cable is bad?
+[Tue Jul 25 13:37:25 2023] PM: suspend entry (deep)
+[Tue Jul 25 13:37:25 2023] Filesystems sync: 0.018 seconds
+[Tue Jul 25 13:37:25 2023] Freezing user space processes ... (elapsed 0.014 seconds) done.
+[Tue Jul 25 13:37:25 2023] OOM killer disabled.
+[Tue Jul 25 13:37:25 2023] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[Tue Jul 25 13:37:25 2023] printk: Suspending console(s) (use no_console_suspend to debug)
+[Tue Jul 25 13:37:25 2023] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[Tue Jul 25 13:37:25 2023] sd 0:0:0:0: [sda] Stopping disk
+[Tue Jul 25 13:37:25 2023] ACPI: EC: interrupt blocked
+[Tue Jul 25 13:37:25 2023] ACPI: PM: Preparing to enter system sleep state S3
+[Tue Jul 25 13:37:26 2023] ACPI: EC: event blocked
+[Tue Jul 25 13:37:26 2023] ACPI: EC: EC stopped
+[Tue Jul 25 13:37:26 2023] ACPI: PM: Saving platform NVS memory
+[Tue Jul 25 13:37:26 2023] Disabling non-boot CPUs ...
+[Tue Jul 25 13:37:26 2023] smpboot: CPU 1 is now offline
+[Tue Jul 25 13:37:26 2023] smpboot: CPU 2 is now offline
+[Tue Jul 25 13:37:26 2023] smpboot: CPU 3 is now offline
+[Tue Jul 25 13:37:26 2023] ACPI: PM: Low-level resume complete
+[Tue Jul 25 13:37:26 2023] ACPI: EC: EC started
+[Tue Jul 25 13:37:26 2023] ACPI: PM: Restoring platform NVS memory
+[Tue Jul 25 13:37:26 2023] Enabling non-boot CPUs ...
+[Tue Jul 25 13:37:26 2023] x86: Booting SMP configuration:
+[Tue Jul 25 13:37:26 2023] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Tue Jul 25 13:37:26 2023] CPU1 is up
+[Tue Jul 25 13:37:26 2023] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[Tue Jul 25 13:37:26 2023] CPU2 is up
+[Tue Jul 25 13:37:26 2023] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[Tue Jul 25 13:37:26 2023] CPU3 is up
+[Tue Jul 25 13:37:26 2023] ACPI: PM: Waking up from system sleep state S3
+[Tue Jul 25 13:37:26 2023] ACPI: EC: interrupt unblocked
+[Tue Jul 25 13:37:27 2023] ACPI: EC: event unblocked
+[Tue Jul 25 13:37:27 2023] sd 0:0:0:0: [sda] Starting disk
+[Tue Jul 25 13:37:27 2023] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[Tue Jul 25 13:37:27 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.bin failed with error -2
+[Tue Jul 25 13:37:27 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.txt failed with error -2
+[Tue Jul 25 13:37:27 2023] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txt failed with error -2
+[Tue Jul 25 13:37:27 2023] OOM killer enabled.
+[Tue Jul 25 13:37:27 2023] Restarting tasks ... done.
+[Tue Jul 25 13:37:28 2023] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Tue Jul 25 13:37:28 2023] ata1.00: unexpected _GTF length (8)
+[Tue Jul 25 13:37:28 2023] ata1.00: unexpected _GTF length (8)
+[Tue Jul 25 13:37:28 2023] ata1.00: configured for UDMA/133
+[Tue Jul 25 13:37:28 2023] PM: suspend exit
+[Tue Jul 25 13:37:28 2023] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[Tue Jul 25 13:37:28 2023] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+[Tue Jul 25 13:37:28 2023] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43602/1 wl0: Nov 10 2015 06:38:10 version 7.35.177.61 (r598657) FWID 01-ea662a8c
+[Tue Jul 25 13:37:28 2023] brcmfmac 0000:03:00.0 wlp3s0: renamed from wlan0
