@@ -1,2 +1,1 @@
-# elementtest-public
-used to share files with others
+used to share files with others via the github platform
